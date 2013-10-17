@@ -1,16 +1,12 @@
 
 " An example for a vimrc file.
 "
-" Maintainer:	Bram Moolenaar <Bram@vim.org>
-" Last change:	2011 Apr 15
+" Original Maintainer:	Bram Moolenaar <Bram@vim.org> 
+" Last change: 2011 Apr 15
 "
-" To use it, copy it to
-"     for Unix and OS/2:  ~/.vimrc
-"	      for Amiga:  s:.vimrc
-"  for MS-DOS and Win32:  $VIM\_vimrc
-"	    for OpenVMS:  sys$login:.vimrc
+" Current Maintainer: Allen Kirby
 
-" Pathogen setup
+"Pathogen setup
 filetype off
 call pathogen#incubate()
 call pathogen#helptags()
@@ -145,7 +141,7 @@ set softtabstop=4
 set expandtab " turn tabs into whitespace
 set laststatus=2 " always show status line
 set autowrite " autowrites the current file when opening another file
-set formatoptions=tcqa
+set formatoptions=tcq
 
 " This autocmd if is used for setting whitespace preferences for
 " certain file types. It is placed after global whitespace so it will
