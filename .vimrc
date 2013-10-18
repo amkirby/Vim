@@ -147,7 +147,8 @@ set formatoptions=tcq
 " certain file types. It is placed after global whitespace so it will
 " take precedence
 if has("autocmd")
-    autocmd FileType make setlocal tabstop=8 softtabstop=8 shiftwidth=8 noexpandtab
+  autocmd FileType make setlocal tabstop=8 softtabstop=8 shiftwidth=8 noexpandtab
+  autocmd BufNewFile,BufRead .vimrc setlocal tabstop=2 softtabstop=2 shiftwidth=2
 endif " whitespace preference autocmd
 
 " Emacs shortcuts for cursor movement in insert mode
