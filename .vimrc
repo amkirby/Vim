@@ -149,6 +149,7 @@ set formatoptions=tcq
 if has("autocmd")
   autocmd FileType make setlocal tabstop=8 softtabstop=8 shiftwidth=8 noexpandtab
   autocmd BufNewFile,BufRead .vimrc setlocal tabstop=2 softtabstop=2 shiftwidth=2
+  au BufNewFile * start
 endif " whitespace preference autocmd
 
 " Emacs shortcuts for cursor movement in insert mode
