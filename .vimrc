@@ -107,7 +107,7 @@ endif
 set scrolloff=3 " minimum number of lines to keep above and below the cursor
 set textwidth=70 " set the text with to 70 columns
 set background=dark " set the background to be dark
-colorscheme darkblue " set the colorscheme to darkblue
+colorscheme desert " set the colorscheme to darkblue
 
 " remap the semicolon to insert the colon in normal mode 
 nnoremap ; : 
